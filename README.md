@@ -12,10 +12,10 @@ In the case of simply wanting to play generation 1 as it was released in Japan, 
 
 These are the roms you should use for each version:
 
-**Red
+**Red**
 - Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
 
-**Green and Blue
+**Green and Blue**
 - Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
 
 ## Setting up your own
@@ -39,19 +39,19 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## Screenshots
 
-**Pokémon Red
+**Pokémon Red**
 
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
 
-**Pokémon Green
+**Pokémon Green**
 
 ![green-title](screenshots/green-title.bmp)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 
-**Pokémon Blue
+**Pokémon Blue**
 
 ![blue-title](screenshots/blue-title.bmp)
 ![blue-prizes](screenshots/blue-prizes.bmp)
