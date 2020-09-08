@@ -26,6 +26,26 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Pokémon Green loads its unique Super Game Boy Palette.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
 
+## Screenshots
+
+Pokémon Red
+
+![red-overworld](screenshots/red-overworld.bmp)
+![red-wild](screenshots/red-wild.bmp)
+![red-trade](screenshots/red-trade.bmp)
+
+Pokémon Green
+
+![green-title](screenshots/green-title.bmp)
+![green-slots](screenshots/green-slots.bmp)
+![green-ceruleancave](screenshots/green-ceruleancave.bmp)
+
+Pokémon Blue
+
+![blue-title](screenshots/blue-title.bmp)
+![blue-prizes](screenshots/blue-prizes.bmp)
+![blue-wild](screenshots/blue-wild.bmp)
+
 ## To-do
 
 * Add translated Red and Green Pokédex entries, Most likely edited from the ones in FireRed(?)
