@@ -7,10 +7,20 @@ It builds the following ROMs:
 * Pokemon Red.gb 
 * Pokemon Green.gb 
 * Pokemon Blue.gb 
+## Downloading and playing
+in the case of simply wanting to play generation 1 as it was released in Japan, download the .ips patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
+
+These are the roms you should use for each version:
+
+Red
+- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
+
+Green and Blue
+- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
 
 ## Setting up your own
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+To set up the repository for your own editing purposes, see [**INSTALL.md**](INSTALL.md).
 
 ## Why make this?
 
