@@ -139,14 +139,15 @@ _Thanks2Text::
 
 _AfterTrade2Text::
 	text "The @"
-	text_ram wInGameTradeGiveMonName
 IF DEF(_BLUE)
+	text_ram wInGameTradeGiveMonName
 	text " you"
 	line "traded to me"
 
 	para "went and evolved!"
 	done
 ELSE
+	text_ram wInGameTradeReceiveMonName
 	text " that"
 	line "I traded you,"
 
