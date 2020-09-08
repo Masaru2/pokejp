@@ -1,6 +1,6 @@
 # Pokémon Red, Green, and Blue
 
-pokejp serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pokémon games.
+**pokejp** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pokémon games.
 
 It builds the following ROMs:
 
@@ -8,7 +8,7 @@ It builds the following ROMs:
 * Pokemon Green.gb 
 * Pokemon Blue.gb 
 ## Downloading and playing
-in the case of simply wanting to play generation 1 as it was released in Japan, download the .ips patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
+In the case of simply wanting to play generation 1 as it was released in Japan, download the .ips patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
 
 These are the roms you should use for each version:
 
