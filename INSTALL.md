@@ -1,6 +1,6 @@
 # Instructions
 
-These instructions explain how to set up the tools required to build **pokered**, including [**rgbds**](https://github.com/rednex/rgbds), which assembles the source files into a ROM.
+These instructions explain how to set up the tools required to build **pokejp**, including [**rgbds**](https://github.com/rednex/rgbds), which assembles the source files into a ROM.
 
 If you run into trouble, ask for help on IRC or Discord (see [README.md](README.md)).
 
@@ -9,9 +9,9 @@ If you run into trouble, ask for help on IRC or Discord (see [README.md](README.
 
 Download and install [**Windows Subsystem for Linux**](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Then open the **WSL terminal**.
 
-WSL has its own file system that's not accessible from Windows, but Windows files *are* accessible from WSL. So you're going to want to install pokered within Windows. You'll have to change the **current working directory** every time you open WSL.
+WSL has its own file system that's not accessible from Windows, but Windows files *are* accessible from WSL. So you're going to want to install pokejp within Windows. You'll have to change the **current working directory** every time you open WSL.
 
-For example, if you want to store pokered in **C:\Users\\*\<user>*\Desktop**, enter this command:
+For example, if you want to store pokejp in **C:\Users\\*\<user>*\Desktop**, enter this command:
 
 ```bash
 cd /mnt/c/Users/<user>/Desktop
@@ -42,9 +42,9 @@ Then download [**rgbds**](https://github.com/rednex/rgbds/releases/): the latest
 
 Now open the **Cygwin terminal** and enter the following commands.
 
-Cygwin has its own file system that's within Windows, at **C:\cygwin64\home\\*\<user>***. If you don't want to store pokered there, you'll have to change the **current working directory** every time you open Cygwin.
+Cygwin has its own file system that's within Windows, at **C:\cygwin64\home\\*\<user>***. If you don't want to store pokejp there, you'll have to change the **current working directory** every time you open Cygwin.
 
-For example, if you want to store pokered in **C:\Users\\*\<user>*\Desktop**:
+For example, if you want to store pokejp in **C:\Users\\*\<user>*\Desktop**:
 
 ```bash
 cd /cygdrive/c/Users/<user>/Desktop
@@ -52,7 +52,7 @@ cd /cygdrive/c/Users/<user>/Desktop
 
 (The Windows `C:\` drive is called `/cygdrive/c/` in Cygwin. Replace *\<user>* in the example path with your username.)
 
-Now you're ready to [build **pokered**](#build-pokered).
+Now you're ready to [build **pokejp**](#build-pokejp).
 
 
 ## Mac OS X
@@ -67,7 +67,7 @@ To install **rgbds**:
 brew install rgbds
 ```
 
-Now you're ready to [build **pokered**](#build-pokered).
+Now you're ready to [build **pokejp**](#build-pokejp).
 
 
 ## Linux
@@ -76,7 +76,7 @@ Open **Terminal** and enter the following commands, depending on which distro yo
 
 ### Debian or Ubuntu
 
-To install the software required for **pokered**:
+To install the software required for **pokejp**:
 
 ```bash
 sudo apt-get install make gcc git
@@ -92,7 +92,7 @@ sudo make -C rgbds install
 
 ### OpenSUSE
 
-To install the software required for **pokered**:
+To install the software required for **pokejp**:
 
 ```bash
 sudo zypper install make gcc git
@@ -108,7 +108,7 @@ sudo make -C rgbds install
 
 ### Arch Linux
 
-To install the software required for **pokered**:
+To install the software required for **pokejp**:
 
 ```bash
 sudo pacman -S make gcc git
@@ -126,7 +126,7 @@ sudo make -C rgbds install
 
 ### Termux
 
-To install the software required for **pokered**:
+To install the software required for **pokejp**:
 
 ```bash
 sudo apt install make clang git sed
@@ -161,19 +161,19 @@ git clone -b v0.4.1 --depth=1 https://github.com/rednex/rgbds
 sudo make -C rgbds install
 ```
 
-Now you're ready to [build **pokered**](#build-pokered).
+Now you're ready to [build **pokejp**](#build-pokejp).
 
 
-## Build pokered
+## Build pokejp
 
 To download the **pokered** source files:
 
 ```bash
-git clone https://github.com/pret/pokered
-cd pokered
+git clone https://github.com/MoriyaFaith/pokejp
+cd pokejp
 ```
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **pokered.gbc**, **pokegreen.gbc** and **pokeblue.gbc**:
 
 ```bash
 make
