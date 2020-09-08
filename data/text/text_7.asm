@@ -140,11 +140,20 @@ _Thanks2Text::
 _AfterTrade2Text::
 	text "The @"
 	text_ram wInGameTradeGiveMonName
+IF DEF(_BLUE)
 	text " you"
 	line "traded to me"
 
 	para "went and evolved!"
 	done
+ELSE
+	text " that"
+	line "I traded you,"
+
+	para "has it grown"
+	line "stronger?"
+	done
+ENDC
 
 _WannaTrade3Text::
 	text "Hi! Do you have"

@@ -94,7 +94,11 @@ DisplayTitleScreen:
 
 ; put a pokeball in the player's hand
 	ld hl, wOAMBuffer + $28
+IF DEF(_BLUE)
 	ld a, $74
+ELSE
+	ld a, $70
+ENDC
 	ld [hl], a
 
 ; place tiles for title screen copyright
@@ -111,7 +115,11 @@ DisplayTitleScreen:
 	jr .next
 
 .tileScreenCopyrightTiles
-	db $41,$42,$43,$42,$44,$42,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
+IF DEF(_BLUE)
+	db $41,$42,$43,$44,$42,$43,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©1995.1996 GAME FREAK inc.
+ELSE
+	db $45,$41,$42,$43,$44,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E,$45,$45 ; ©1995 GAME FREAK inc.
+ENDC
 
 .next
 	call SaveScreenTilesToBuffer2
@@ -120,6 +128,9 @@ DisplayTitleScreen:
 
 IF DEF(_RED)
 	ld a, CHARMANDER ; which Pokemon to show first on the title screen
+ENDC
+IF DEF(_GREEN)
+	ld a, BULBASAUR ; which Pokemon to show first on the title screen
 ENDC
 IF DEF(_BLUE)
 	ld a, SQUIRTLE ; which Pokemon to show first on the title screen
@@ -323,7 +334,11 @@ DrawPlayerCharacter:
 	xor a
 	ld [wPlayerCharacterOAMTile], a
 	ld hl, wOAMBuffer
+IF DEF(_BLUE)
 	lb de, $60, $5a
+ELSE
+	lb de, $60, $30
+ENDC
 	ld b, 7
 .loop
 	push de
@@ -359,7 +374,11 @@ ClearBothBGMaps:
 LoadTitleMonSprite:
 	ld [wcf91], a
 	ld [wd0b5], a
+IF DEF(_BLUE)
 	hlcoord 5, 10
+ELSE
+	hlcoord 9, 10
+ENDC
 	call GetMonHeader
 	jp LoadFrontSpriteByMonIndex
 
@@ -383,10 +402,17 @@ LoadCopyrightTiles:
 	jp PlaceString
 
 CopyrightTextString:
-	db   $60,$61,$62,$61,$63,$61,$64,$7F,$65,$66,$67,$68,$69,$6A             ; ©'95.'96.'98 Nintendo
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$6B,$6C,$6D,$6E,$6F,$70,$71,$72     ; ©'95.'96.'98 Creatures inc.
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©'95.'96.'98 GAME FREAK inc.
+IF DEF(_BLUE)
+	db   $60,$61,$62,$63,$61,$62,$64,$65,$66,$67,$68,$69,$6A             ; ©1995.1996 Nintendo
+	next $60,$61,$62,$63,$61,$62,$64,$6B,$6C,$6D,$6E,$6F,$70,$71,$72     ; ©1995.1996 Creatures inc.
+	next $60,$61,$62,$63,$61,$62,$64,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©1995.1996 GAME FREAK inc.
 	db   "@"
+ELSE
+	db   $7F,$7F,$7F,$60,$61,$62,$63,$65,$66,$67,$68,$69,$6A             ; ©1995 Nintendo
+	next $7F,$7F,$7F,$60,$61,$62,$63,$6B,$6C,$6D,$6E,$6F,$70,$71,$72     ; ©1995 Creatures inc.
+	next $7F,$7F,$7F,$60,$61,$62,$63,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©1995 GAME FREAK inc.
+	db   "@"
+ENDC
 
 INCLUDE "data/pokemon/title_mons.asm"
 
@@ -400,6 +426,9 @@ PrintGameVersionOnTitleScreen:
 VersionOnTitleScreenText:
 IF DEF(_RED)
 	db $60,$61,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+ENDC
+IF DEF(_GREEN)
+	db $62,$63,$64,$7F,$65,$66,$67,$68,$69,"@" ; "Green Version"
 ENDC
 IF DEF(_BLUE)
 	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Blue Version"

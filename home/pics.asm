@@ -26,20 +26,24 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp TANGELA + 1
-	ld a, BANK(TangelaPicFront)
+	cp PINSIR + 1
+	ld a, BANK(PinsirPicFront)
 	jr c, .GotBank
 	ld a, b
-	cp MOLTRES + 1
-	ld a, BANK(MoltresPicFront)
+	cp POLIWAG + 1
+	ld a, BANK(PoliwagPicFront)
 	jr c, .GotBank
 	ld a, b
-	cp BEEDRILL + 2
-	ld a, BANK(BeedrillPicFront)
+	cp POLIWRATH + 1
+	ld a, BANK(PoliwrathPicFront)
 	jr c, .GotBank
 	ld a, b
-	cp STARMIE + 1
-	ld a, BANK(StarmiePicFront)
+	cp HAUNTER + 1
+	ld a, BANK(HaunterPicFront)
+	jr c, .GotBank
+	ld a, b
+	cp SQUIRTLE + 1
+	ld a, BANK(SquirtlePicFront)
 	jr c, .GotBank
 	ld a, BANK(VictreebelPicFront)
 .GotBank
