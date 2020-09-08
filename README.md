@@ -18,6 +18,8 @@ These are the roms you should use for each version:
 **Green and Blue**
 - Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
 
+They're based off of the ones made by the [pokered](https://github.com/pret/pokered) project.
+
 ## Setting up your own
 
 To set up the repository for your own editing purposes, see [**INSTALL.md**](INSTALL.md).
@@ -62,3 +64,9 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Add translated Red and Green Pokédex entries, Most likely edited from the ones in FireRed(?)
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Fix flower animation speed (R/G)
+
+## Credits
+
+* The [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
+* Alchav's fork of pokered, which allowed usage of the RG sprites
+* Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave
