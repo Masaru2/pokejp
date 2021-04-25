@@ -43,7 +43,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Pokémon Green loads its unique Super Game Boy Palette.
 * Each game's Super Game Boy Border now has text saying "POKEMON!" where "POCKET MONSTERS!" normally is in the Japanese games.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
-* Restores the Game Freak Presents Bug where it dosen't appears where it's supposed.
+* Fix the Game Freak Presents Bug where it dosen't appears where it's supposed.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
 * Original Japanese map border layout restored.
 
