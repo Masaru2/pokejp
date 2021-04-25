@@ -59,12 +59,15 @@ PlaceNextChar::
 	ret
 
 .NotTerminator
+	cp "<LF>"
+	jr z, .line_feed
 	cp "<NEXT>"
 	jr nz, .NotNext
 	ld bc, 2 * SCREEN_WIDTH
 	ldh a, [hFlagsFFF6]
 	bit 2, a
 	jr z, .ok
+.line_feed
 	ld bc, SCREEN_WIDTH
 .ok
 	pop hl

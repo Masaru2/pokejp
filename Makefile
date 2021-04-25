@@ -1,4 +1,4 @@
-roms := pokered.gbc pokeblue.gbc pokegreen.gbc
+roms := pokered.gbc pokeblue.gbc pokegreen.gbc pokered_debug.gbc pokeblue_debug.gbc pokegreen_debug.gbc
 
 rom_obj := \
 audio.o \
@@ -13,7 +13,10 @@ gfx/tilesets.o
 
 pokered_obj        := $(rom_obj:.o=_red.o)
 pokeblue_obj       := $(rom_obj:.o=_blue.o)
-pokegreen_obj := $(rom_obj:.o=_green.o)
+pokegreen_obj 	   := $(rom_obj:.o=_green.o)
+pokered_debug_obj  := $(rom_obj:.o=_red_debug.o)
+pokeblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
+pokegreen_debug_obj := $(rom_obj:.o=_green_debug.o)
 
 
 ### Build tools
@@ -42,13 +45,16 @@ RGBLINK ?= $(RGBDS)rgblink
 all: $(roms)
 red:        pokered.gbc
 blue:       pokeblue.gbc
-green: pokegreen.gbc
+green: 		pokegreen.gbc
+red_debug:	pokered_debug.gbc
+blue_debug: pokeblue_debug.gbc
+green_debug: pokegreen_debug.gbc
 
 clean: tidy
 	find gfx \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pic' \) -delete
 
 tidy:
-	rm -f $(roms) $(pokered_obj) $(pokeblue_obj) $(pokegreen_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
+	rm -f $(roms) $(pokered_obj) $(pokeblue_obj) $(pokegreen_obj) $(pokeblue_debug_obj) $(pokered_debug_obj) $(pokegreen_debug_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
 	$(MAKE) clean -C tools/
 
 compare: $(roms)
@@ -66,7 +72,10 @@ endif
 
 $(pokered_obj):        RGBASMFLAGS += -D _RED
 $(pokeblue_obj):       RGBASMFLAGS += -D _BLUE
-$(pokegreen_obj): RGBASMFLAGS += -D _GREEN
+$(pokegreen_obj): 	   RGBASMFLAGS += -D _GREEN
+$(pokered_debug_obj):  RGBASMFLAGS += -D _RED -D _DEBUG
+$(pokeblue_debug_obj): RGBASMFLAGS += -D _BLUE -D _DEBUG
+$(pokegreen_debug_obj): RGBASMFLAGS += -D _GREEN -D _DEBUG
 
 rgbdscheck.o: rgbdscheck.asm
 	$(RGBASM) -o $@ $<
@@ -89,6 +98,9 @@ $(info $(shell $(MAKE) -C tools))
 $(foreach obj, $(pokered_obj), $(eval $(call DEP,$(obj),$(obj:_red.o=.asm))))
 $(foreach obj, $(pokeblue_obj), $(eval $(call DEP,$(obj),$(obj:_blue.o=.asm))))
 $(foreach obj, $(pokegreen_obj), $(eval $(call DEP,$(obj),$(obj:_green.o=.asm))))
+$(foreach obj, $(pokered_debug_obj), $(eval $(call DEP,$(obj),$(obj:_red_debug.o=.asm))))
+$(foreach obj, $(pokeblue_debug_obj), $(eval $(call DEP,$(obj),$(obj:_blue_debug.o=.asm))))
+$(foreach obj, $(pokegreen_debug_obj), $(eval $(call DEP,$(obj),$(obj:_green_debug.o=.asm))))
 
 endif
 
@@ -98,11 +110,18 @@ endif
 
 pokered_pad        = 0x00
 pokeblue_pad       = 0x00
-pokegreen_pad = 0x00
+pokegreen_pad 	   = 0x00
+pokered_debug_pad  = 0xff
+pokeblue_debug_pad = 0xff
+pokegreen_debug_pad = 0xff
 
 pokered_opt        = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
 pokeblue_opt       = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pokegreen_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+pokegreen_opt 	   = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+pokered_debug_opt  = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pokeblue_debug_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pokegreen_debug_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) -p $($*_pad) -d -m $*.map -n $*.sym -l layout.link -o $@ $(filter %.o,$^)

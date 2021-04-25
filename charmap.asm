@@ -1,6 +1,8 @@
 ; $00-$17 are TX_* constants (see macros/scripts/text.asm)
 
 ; Control characters (see home/text.asm)
+	
+	charmap "<LF>",		 $1f
 
 	charmap "<NULL>",    $00
 	charmap "<PAGE>",    $49
@@ -156,6 +158,8 @@
 	charmap "'s",        $bd
 	charmap "'t",        $be
 	charmap "'v",        $bf
+	
+	charmap "<UPDN>",	 $df
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

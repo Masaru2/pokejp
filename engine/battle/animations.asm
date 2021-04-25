@@ -767,7 +767,7 @@ DoRockSlideSpecialEffects:
 
 FlashScreenEveryEightFrameBlocks:
 	ld a, [wSubAnimCounter]
-	and 7 ; is the subanimation counter exactly 8?
+	and 2 ; is the subanimation counter exactly 3?
 	call z, AnimationFlashScreen ; if so, flash the screen
 	ret
 

@@ -1,12 +1,17 @@
-# Pokémon Red, Green, and Blue
+# Pokémon Red, Green, and Blue JP: Masaru2 Edition
 
 **pokejp** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pokémon games.
+Improves the romhacks made by the user MoriyaFaith, restores various things that weren't in his romhack
 
 It builds the following ROMs:
 
 * Pokemon Red.gb 
+* Pokemon Red Debug.gb 
 * Pokemon Green.gb 
+* Pokemon Green Debug.gb 
 * Pokemon Blue.gb 
+* Pokemon Blue Debug.gb 
+
 ## Downloading and playing
 In the case of simply wanting to play generation 1 as it was released in Japan, download the .ips patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
 
@@ -38,6 +43,9 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Pokémon Green loads its unique Super Game Boy Palette.
 * Each game's Super Game Boy Border now has text saying "POKEMON!" where "POCKET MONSTERS!" normally is in the Japanese games.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
+* Restores the Game Freak Presents Bug where it dosen't appears where it's supposed.
+* Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
+* Original Japanese map border layout restored.
 
 ## Screenshots
 
@@ -46,6 +54,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
+![red-map] (screenshots/red-map.bmp)
 
 **Pokémon Green**
 
@@ -67,6 +76,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## Credits
 
+* MoriyaFaith for his original project
 * The [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
 * Alchav's fork of pokered, which allowed usage of the RG sprites
-* Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave
+* Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave and for the Japanese Map Border Layout

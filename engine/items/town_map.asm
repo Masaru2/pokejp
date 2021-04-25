@@ -13,9 +13,8 @@ DisplayTownMap:
 	push af
 	ld b, $0
 	call DrawPlayerOrBirdSprite ; player sprite
-	hlcoord 1, 0
 	ld de, wcd6d
-	call PlaceString
+	call PlaceMapName
 	ld hl, wOAMBuffer
 	ld de, wTileMapBackup
 	ld bc, $10
@@ -31,7 +30,7 @@ DisplayTownMap:
 
 .townMapLoop
 	hlcoord 0, 0
-	lb bc, 1, 20
+	lb bc, 2, 10
 	call ClearScreenArea
 	ld hl, TownMapOrder
 	ld a, [wWhichTownMapLocation]
@@ -59,7 +58,7 @@ DisplayTownMap:
 	jr nz, .copyMapName
 	hlcoord 1, 0
 	ld de, wcd6d
-	call PlaceString
+	call PlaceMapName
 	ld hl, wOAMBuffer + $10
 	ld de, wTileMapBackup + 16
 	ld bc, $10
@@ -120,10 +119,9 @@ LoadTownMap_Nest:
 	push hl
 	call DisplayWildLocations
 	call GetMonName
-	hlcoord 1, 0
+	hlcoord 0, 0
 	call PlaceString
-	ld h, b
-	ld l, c
+	hlcoord 0, 1
 	ld de, MonsNestText
 	call PlaceString
 	call WaitForTextScrollButtonPress
@@ -134,7 +132,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "'s NEST@"
+	db "NEST@"
 
 LoadTownMap_Fly::
 	call ClearSprites
@@ -155,35 +153,24 @@ LoadTownMap_Fly::
 	push af
 	ld [hl], $ff
 	push hl
-	hlcoord 0, 0
-	ld de, ToText
-	call PlaceString
 	ld a, [wCurMap]
 	ld b, $0
 	call DrawPlayerOrBirdSprite
 	ld hl, wFlyLocationsList
-	decoord 18, 0
 .townMapFlyLoop
-	ld a, " "
-	ld [de], a
 	push hl
 	push hl
-	hlcoord 3, 0
-	lb bc, 1, 15
+	hlcoord 0, 0
+	lb bc, 2, 10
 	call ClearScreenArea
 	pop hl
 	ld a, [hl]
 	ld b, $4
 	call DrawPlayerOrBirdSprite ; draw bird sprite
-	hlcoord 3, 0
 	ld de, wcd6d
-	call PlaceString
+	call PlaceMapName
 	ld c, 15
 	call DelayFrames
-	hlcoord 18, 0
-	ld [hl], "▲"
-	hlcoord 19, 0
-	ld [hl], "▼"
 	pop hl
 .inputLoop
 	push hl
@@ -245,8 +232,6 @@ LoadTownMap_Fly::
 	ld hl, wFlyLocationsList + NUM_CITY_MAPS
 	jr .pressedDown
 
-ToText:
-	db "To@"
 
 BuildFlyLocationsList:
 	ld hl, wFlyLocationsList - 1
@@ -385,6 +370,10 @@ DisplayWildLocations:
 	cp $19 ; Cerulean Cave's coordinates
 	jr z, .nextEntry ; skip Cerulean Cave
 	call TownMapCoordsToOAMCoords
+	dec hl
+	inc [hl] ; shifts nest icons down 1 pixel
+	inc hl
+	inc hl
 	ld a, $4 ; nest icon tile no.
 	ld [hli], a
 	xor a
@@ -426,7 +415,7 @@ TownMapCoordsToOAMCoords:
 	srl a
 	add 24
 	ld b, a
-	ld [hli], a
+	ld [hl], a
 	pop af
 	and $f
 	swap a
@@ -618,3 +607,9 @@ TownMapSpriteBlinkingAnimation::
 .done
 	ld [wAnimCounter], a
 	jp DelayFrame
+
+PlaceMapName:
+	hlcoord 0, 0
+	ld [hl], "<UPDN>"
+	inc hl
+	jp PlaceString 
