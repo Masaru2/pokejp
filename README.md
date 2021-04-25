@@ -54,7 +54,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
-![red-map] (screenshots/red-map.bmp)
+![red-map](screenshots/red-map.bmp)
 
 **Pokémon Green**
 
