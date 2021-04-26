@@ -72,7 +72,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 * Add translated Red and Green Pokédex entries, Most likely edited from the ones in FireRed(?)
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
-* Fix flower animation speed (R/G)
 
 ## Credits
 
