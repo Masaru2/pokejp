@@ -413,16 +413,16 @@ TownMapCoordsToOAMCoords:
 	push af
 	and $f0
 	srl a
-	add 24
+	add 23
 	ld b, a
-	ld [hl], a
+	ld [hli], a
 	pop af
 	and $f
 	swap a
 	srl a
 	add 24
 	ld c, a
-	ld [hli], a
+	ld [hl], a
 	ret
 
 WritePlayerOrBirdSpriteOAM:
