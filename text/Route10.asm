@@ -21,15 +21,15 @@ _Route10BattleText2::
 
 _Route10EndBattleText2::
 	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	line "The truth is..."
+	cont "I ate at lot of"
+	cont "magic mushrooms!"
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Ha-ha!"
+	line "Ha-ha-ha!"
+	cont "...Ha-ha..."
 	done
 
 _Route10BattleText3::
