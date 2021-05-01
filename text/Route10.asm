@@ -22,7 +22,7 @@ _Route10BattleText2::
 _Route10EndBattleText2::
 	text "Ha-haha!"
 	line "The truth is..."
-	cont "I ate at lot of"
+	cont "I ate a lot of"
 	cont "magic mushrooms!"
 	prompt
 
