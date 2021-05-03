@@ -79,13 +79,13 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "Theres a bulb"
+	next "on its back."
+	next "when it absorbs"
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "nutrients, it"
+	next "blooms into a"
+	next "large flower"
 	dex
 
 _ExeggutorDexEntry::
@@ -269,13 +269,13 @@ _StaryuDexEntry::
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "It crushes its"
+	next "foe under his body"
+	next "to cause fainting."
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "In a pinch, it"
+	next "will withdraw ins-"
+	next "ide its shell"
 	dex
 
 _PinsirDexEntry::
@@ -689,23 +689,23 @@ _NinetalesDexEntry::
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
+	text "It has small elec-"
+	next "tric sacs on both"
+	next "of his cheeks"
 
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	page "if threatened, if"
+	next "loses charge"
+	next "from its sacs"
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Its electrical"
+	next "charges may reach"
+	next "100,000 volts"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "less contact can"
+	next "even cause an ele-"
+	next "phant to faint"
 	dex
 
 _DratiniDexEntry::
@@ -1249,23 +1249,23 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Theres a seed on"
+	next "its back right"
+	next "from its birth."
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "The plant seed"
+	next "slowly grows"
+	next "larger"
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "A bewitching"
+	next "aroma swafts from"
+	next "its flower."
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "the fragance bec-"
+	next "alms those engag-"
+	next "ed in battle"
 	dex
 
 _TentacruelDexEntry::
@@ -1399,53 +1399,53 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "From the time of"
+	next "its born, a flame"
+	next "burns at its tail."
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "Its life would"
+	next "end if the flame"
+	next "were to go out"
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "When it retracts"
+	next "its long neck"
+	next "into its shell"
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "it squirts out"
+	next "water with vigo-"
+	next "rous force"
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "It lashes with"
+	next "its tail to kno-"
+	next "ck down its foe."
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "it then tears up"
+	next "the opponent with"
+	next "sharp claws."
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "This #MON is"
+	next "very popular"
+	next "as a pet."
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "Its fur-covered"
+	next "tail is a symbol"
+	next "of its longevity"
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Its wings can"
+	next "carry a #MON to"
+	next "only 4.600 feet."
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "it blows out fire"
+	next "at very high"
+	next "temperatures"
 	dex
 
 _OddishDexEntry::
