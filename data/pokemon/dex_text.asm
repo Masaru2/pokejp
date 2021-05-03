@@ -1,11 +1,11 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+	text "It begins walking"
+	next "on its hind legs"
+	next "after evolution."
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "It can punch holes"
+	next "through boulders"
+	next "with its horn"
 	dex
 
 _KangaskhanDexEntry::
@@ -39,13 +39,13 @@ _ClefairyDexEntry::
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "It busily flits"
+	next "around here and"
+	next "there. Even if its"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "frail, it can be"
+	next "a tough foe that"
+	next "uses MIRROR MOVE"
 	dex
 
 _VoltorbDexEntry::
@@ -169,13 +169,13 @@ _CuboneDexEntry::
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
+	text "Strong, but not"
+	next "too bright, this"
+	next "#MON can sha-"
 
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	page "tter even a skysc-"
+	next "raper with its"
+	next "charging TACKLES"
 	dex
 
 _LaprasDexEntry::
@@ -199,13 +199,13 @@ _ArcanineDexEntry::
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
+	text "A #MON of South"
+	next "America that was"
+	next "thought to be"
 
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	page "extinct. it is ve-"
+	next "ry intelligent and"
+	next "learns any move"
 	dex
 
 _GyaradosDexEntry::
@@ -319,23 +319,23 @@ _OnixDexEntry::
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+	text "Its huge and magn-"
+	next "ificent wings can"
+	next "keep it aloft."
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "It can remain fly-"
+	next "ing a whole day"
+	next "without landing"
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	text "Does not like to"
+	next "fight. It hides"
+	next "in tall grass"
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "and so on, fora-"
+	next "ging for food such"
+	next "as small bugs"
 	dex
 
 _SlowpokeDexEntry::
@@ -419,13 +419,13 @@ _HitmonchanDexEntry::
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
+	text "The pattern on its"
+	next "belly appears to"
+	next "be a scary face."
 
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	page "Weak foes will"
+	next "flee at the sight"
+	next "of the pattern"
 	dex
 
 _ParasectDexEntry::
@@ -519,13 +519,13 @@ _MankeyDexEntry::
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+	text "Covered in light"
+	next "blue fur, its hide"
+	next "thick and tough."
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "it is active in"
+	next "bitter cold of"
+	next "-40 celsius"
 	dex
 
 _DiglettDexEntry::
@@ -701,11 +701,11 @@ _PikachuDexEntry::
 _RaichuDexEntry::
 	text "Its electrical"
 	next "charges may reach"
-	next "100,000 volts"
+	next "100,000 volts."
 
-	page "less contact can"
-	next "even cause an ele-"
-	next "phant to faint"
+	page "Careless contact"
+	next "can even cause an"
+	next "elephant to faint"
 	dex
 
 _DratiniDexEntry::
@@ -889,13 +889,13 @@ _ZubatDexEntry::
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
+	text "A very common si-"
+	next "ght in grasslands,"
+	next "etc. It flick its"
 
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	page "tongue in and out"
+	next "to sense danger in"
+	next "the surroundings"
 	dex
 
 _ParasDexEntry::
@@ -930,32 +930,32 @@ _PoliwrathDexEntry::
 
 _WeedleDexEntry::
 	text "Often found in"
-	next "forests, eating"
-	next "leaves."
+	next "forests. It has"
+	next "a sharp, toxic-"
 
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	page "barb of around"
+	next "two inches on"
+	next "top of its head"
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
+	text "This #MON is"
+	next "in a temporary"
+	next "stage while making"
 
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	page "its body. It is"
+	next "almost unable to"
+	next "move on its own"
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
+	text "May appears at"
+	next "swarms, flies at"
+	next "violent speeds."
 
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	page "all the while sta-"
+	next "bbing on its toxic"
+	next "rear stinger"
 	dex
 
 _DodrioDexEntry::
@@ -999,43 +999,43 @@ _VenomothDexEntry::
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
+	text "Its body is cov-"
+	next "ered on a pure"
+	next "white fur."
 
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	page "The colder the"
+	next "weather, the more"
+	next "active it becomes"
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "Its covered on"
+	next "a green skin."
+	next "When it grows,"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "it covers itself"
+	next "in slik and beco-"
+	next "mes a cocoon"
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "Even though its"
+	next "encased in a stur-"
+	next "dy shell, the body"
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "inside is tender,"
+	next "it cant withstand"
+	next "a harsh attack"
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "Its wings are pro-"
+	next "tected by a rain-"
+	next "repellent dust."
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "As a result, this"
+	next "#MON can fly"
+	next "even in rain"
 	dex
 
 _MachampDexEntry::
@@ -1219,23 +1219,23 @@ _AlakazamDexEntry::
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
+	text "The claws on their"
+	next "feet are well dev-"
+	next "eloped. It can"
 
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	page "carry prey such as"
+	next "an EXEGGCUTE to"
+	next "its nest 60m away"
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
+	text "It spreads its"
+	next "gourgeous wings to"
+	next "threaten enemies."
 
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	page "It races through"
+	next "the skies at"
+	next "Mach-2 speed"
 	dex
 
 _StarmieDexEntry::
@@ -1251,7 +1251,7 @@ _StarmieDexEntry::
 _BulbasaurDexEntry::
 	text "Theres a seed on"
 	next "its back right"
-	next "from its birth."
+	next "since its birth."
 
 	page "The plant seed"
 	next "slowly grows"
@@ -1319,23 +1319,23 @@ _RapidashDexEntry::
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "Its fangs are long"
+	next "and sharp. They"
+	next "grow continuously,"
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "so it gnaws on"
+	next "hard things to"
+	next "whittle them down"
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "Its rear feet have"
+	next "three toes each."
+	next "They are webbed,"
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "Enabling it to"
+	next "swim across"
+	next "rivers"
 	dex
 
 _NidorinoDexEntry::
