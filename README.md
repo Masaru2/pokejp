@@ -31,7 +31,7 @@ To set up the repository for your own editing purposes, see [**INSTALL.md**](INS
 
 ## Why make this?
 
-In 1995, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue werre released, using the updated Pocket Monsters Blue as the base engine. A Pokémon game with Pocket Monsters Blue's wild data was never released in Japan. This caused a multitude of changes in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, the closest as possible.
+In 1995, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue were released, using the updated Pocket Monsters Blue as the base engine. A Pokémon game with Pocket Monsters Blue's wild data was never released in Japan. This caused a multitude of changes in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, the closest as possible.
 
 ## What's changed?
 
@@ -67,6 +67,7 @@ In 1995, The original Pocket Monsters Red and Green were released. Later that Ye
 ![blue-title](screenshots/blue-title.bmp)
 ![blue-prizes](screenshots/blue-prizes.bmp)
 ![blue-wild](screenshots/blue-wild.bmp)
+![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
 
