@@ -274,8 +274,8 @@ _BlastoiseDexEntry::
 	next "to cause fainting."
 
 	page "In a pinch, it"
-	next "will withdraw ins-"
-	next "ide its shell"
+	next "will withdraw"
+	next "inside its shell"
 	dex
 
 _PinsirDexEntry::
@@ -634,8 +634,8 @@ _ZapdosDexEntry::
 	next "While it is"
 
 	page "flying, it makes"
-	next "cracking and snap-"
-	next "ping sounds"
+	next "cracking and"
+	next "snapping sounds"
 	dex
 
 _DittoDexEntry::
@@ -1054,8 +1054,8 @@ _GolduckDexEntry::
 	next "make it an adept"
 
 	page "swimmer. it can be"
-	next "seen swimming eleg"
-	next "-antly in lakes"
+	next "seen swimming ele-"
+	next "gantly in lakes"
 	dex
 
 _HypnoDexEntry::
@@ -1264,8 +1264,8 @@ _VenusaurDexEntry::
 	next "its flower."
 
 	page "the fragance bec-"
-	next "alms those engag-"
-	next "ed in battle"
+	next "alms those engaged"
+	next "in battle"
 	dex
 
 _TentacruelDexEntry::
@@ -1339,8 +1339,8 @@ _RaticateDexEntry::
 	dex
 
 _NidorinoDexEntry::
-	text "It is easily anger"
-	next "-ed. By swinging"
+	text "It is easily ange-"
+	next "red. By swinging"
 	next "its well-developed"
 
 	page "horn wildly, it"
