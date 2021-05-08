@@ -6,10 +6,10 @@ Improves the romhacks made by the user MoriyaFaith, restores and fixes various t
 It builds the following ROMs:
 
 * Pokemon Red.gb 
-* Pokemon Red Debug.gb 
-* Pokemon Green.gb 
-* Pokemon Green Debug.gb 
+* Pokemon Green.gb  
 * Pokemon Blue.gb 
+* Pokemon Red Debug.gb
+* Pokemon Green Debug.gb
 * Pokemon Blue Debug.gb 
 
 ## Downloading and playing
@@ -35,7 +35,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## What's changed?
 
-* Any bugs present in the original Red and Green that are not in the International Red and Blue are not present.
+* Any bugs present in the original Red and Green that are not in the International Red and Blue are not present and viceversa.
 * The title screen of Pokemon Red and Green has been changed to the original Japanese release.
 * Pokémon Blue's wild Pokémon data has been edited to the Japanese release. Pokémon Green uses US Blue's wild data.
 * Pokémon Red and Green now use the original Cerulean Cave layout.
