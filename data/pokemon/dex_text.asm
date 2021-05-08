@@ -203,19 +203,19 @@ _MewDexEntry::
 	next "America that was"
 	next "thought to be"
 
-	page "extinct. it is ve-"
-	next "ry intelligent and"
+	page "extinct. It is"
+	next "very smart and"
 	next "learns any move"
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
+	text "Its agressive in"
+	next "nature. It can"
+	next "fire HYPER BEAM"
 
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	page "powerful enough"
+	next "to incinerate"
+	next "all targets"
 	dex
 
 _ShellderDexEntry::
@@ -249,23 +249,23 @@ _GastlyDexEntry::
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
+	text "It tears and"
+	next "shreds prey with"
+	next "its wickedly sharp"
 
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	page "scythes. It very"
+	next "rarely spreads its"
+	next "wings to fly"
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
+	text "It appears in"
+	next "large numbers by"
+	next "seashores. At"
 
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	page "night, its central"
+	next "core flashes with"
+	next "a red light"
 	dex
 
 _BlastoiseDexEntry::
@@ -279,13 +279,13 @@ _BlastoiseDexEntry::
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+	text "Its two long"
+	next "pincer horns are"
+	next "powerful. Once"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "they grip a foe,"
+	next "they wont release"
+	next "until is torn"
 	dex
 
 _TangelaDexEntry::
@@ -379,23 +379,23 @@ _ChanseyDexEntry::
 	dex
 
 _MachokeDexEntry::
-	text "Its formidable bo-"
-	next "dy never gets tir-"
-	next "ed. It helps peop-"
+	text "Its gigantic body"
+	next "never gets tired."
+	next "It helps people"
 
-	page "le by doing work"
-	next "such as the moving"
+	page "by doing work such"
+	next "as the moving"
 	next "of heavy goods"
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "It is adept at"
+	next "conning people."
+	next "It is said to"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "be able to create"
+	next "walls out of thin"
+	next "air by miming"
 	dex
 
 _HitmonleeDexEntry::
@@ -469,23 +469,23 @@ _GolemDexEntry::
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Found near a"
+	next "volcano. This"
+	next "fire-breather's"
 
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	page "body temperature"
+	next "is nearly 1,200"
+	next "degrees celsius"
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
+	text "It loves to feed"
+	next "on strong electri-"
+	next "city. It ocassion-"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "ally appears"
+	next "around large power"
+	next "plants and so on"
 	dex
 
 _MagnetonDexEntry::
@@ -539,13 +539,13 @@ _DiglettDexEntry::
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
+	text "When its about to"
+	next "TACKLE, it wips"
+	next "its body"
 
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	page "repeatedly with"
+	next "its three long"
+	next "tails"
 	dex
 
 _FarfetchdDexEntry::
@@ -569,13 +569,13 @@ _VenonatDexEntry::
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
+	text "It can fly on its"
+	next "big and bulky"
+	next "physique."
 
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	page "It circles around"
+	next "the globe in just"
+	next "16 hours"
 	dex
 
 _DoduoDexEntry::
@@ -599,13 +599,13 @@ _PoliwagDexEntry::
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+	text "It speaks using a"
+	next "language that"
+	next "sounds human."
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "Research is under"
+	next "way to determine"
+	next "what it says"
 	dex
 
 _MoltresDexEntry::
@@ -639,13 +639,13 @@ _ZapdosDexEntry::
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "It can freely"
+	next "recombine its own"
+	next "cellular structure"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "to transform"
+	next "into other"
+	next "life-forms"
 	dex
 
 _MeowthDexEntry::
@@ -709,63 +709,63 @@ _RaichuDexEntry::
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
+	text "Even the young can"
+	next "exceed 6.5 feet"
+	next "in length."
 
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	page "It grows larger by"
+	next "repeatedly shedd-"
+	next "ing skin"
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
+	text "It is said to live"
+	next "in seas and lakes."
+	next "Even though it has"
 
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	page "no wings, it has"
+	next "been seen flying"
+	next "ocassionaly"
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
+	text "This #MON was"
+	next "regenerated from"
+	next "a fossil."
 
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	page "It protects"
+	next "itself with a"
+	next "hard shell"
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
+	text "It swims freely"
+	next "through water. It"
+	next "catches prey with"
 
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	page "its scythe-like"
+	next "arms and drains"
+	next "their fluids"
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
+	text "It stays steady"
+	next "using its tail"
+	next "that is wound up"
 
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	page "like a coil."
+	next "It may spray ink"
+	next "from its mouth"
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
+	text "Its body bristles"
+	next "with sharp spikes."
+	next "Carelessly trying"
 
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	page "to touch it could"
+	next "cause fainting"
+	next "from the spikes"
 	dex
 
 _SandshrewDexEntry::
@@ -789,23 +789,23 @@ _SandslashDexEntry::
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
+	text "A prehistoric"
+	next "#MON that lived"
+	next "on the primordial"
 
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	page "sea. It swims by"
+	next "twisting its 10"
+	next "tentacles about"
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
+	text "Its tentacles are"
+	next "high developed as"
+	next "if they are hands"
 
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	page "and feet. As soon"
+	next "as it ensnares"
+	next "prey, it bites"
 	dex
 
 _JigglypuffDexEntry::
@@ -829,43 +829,43 @@ _WigglytuffDexEntry::
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
+	text "An extremely"
+	next "rare #MON that"
+	next "may transform in a"
 
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	page "number of differ-"
+	next "ent ways depending"
+	next "on stimuli"
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
+	text "It has a flame bag"
+	next "inside its body."
+	next "After inhaling"
 
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	page "deeply, it blows"
+	next "out flames of nea-"
+	next "rly 1,700 celsius"
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
+	text "If its angered or"
+	next "starled, the fur"
+	next "all over its body"
 
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	page "bristles like"
+	next "sharp needles"
+	next "that fierce foes"
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
+	text "Its cellular"
+	next "structure is"
+	next "similar to the"
 
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	page "water molecules."
+	next "It can melt invi-"
+	next "sibly on water"
 	dex
 
 _MachopDexEntry::
@@ -1045,7 +1045,7 @@ _MachampDexEntry::
 
 	page "flurry of 1,000"
 	next "punches in just"
-	next "two seconds"
+	next "2 seconds"
 	dex
 
 _GolduckDexEntry::
@@ -1089,23 +1089,23 @@ _MewtwoDexEntry::
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
+	text "Its not satisfied"
+	next "unless it eats"
+	next "400kg of food"
 
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	page "every day. When"
+	next "its done eating,"
+	next "it falls asleep"
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "It is worthless"
+	next "in terms of both"
+	next "power and speed."
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "It is the weak and"
+	next "pathetic #MON"
+	next "in the world"
 	dex
 
 _MukDexEntry::
@@ -1239,13 +1239,13 @@ _PidgeotDexEntry::
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
+	text "This #MON has"
+	next "a geometric body."
+	next "Because of its"
 
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	page "body, the locals"
+	next "suspect it is an"
+	next "alien creature"
 	dex
 
 _BulbasaurDexEntry::
@@ -1279,23 +1279,23 @@ _TentacruelDexEntry::
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
+	text "Its dorsal and"
+	next "pectoral fins are"
+	next "strongly developed"
 
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	page "like muscles."
+	next "It can swim at a"
+	next "speed of 5 knots"
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
+	text "The horn on its"
+	next "head is sharp"
+	next "like a drill."
 
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	page "It bores a hole in"
+	next "a boulder to make"
+	next "its nest"
 	dex
 
 _PonytaDexEntry::
@@ -1369,23 +1369,23 @@ _GeodudeDexEntry::
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
+	text "Using the most"
+	next "advanced tecnolo-"
+	next "gies, scientifics"
 
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	page "succeed on making"
+	next "the first artifi-"
+	next "cial #MON"
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
+	text "Regenerated using"
+	next "using dinosaur's"
+	next "genetic matter"
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	page "found on a amber."
+	next "It flies with high"
+	next "pitched cries"
 	dex
 
 _MagnemiteDexEntry::
