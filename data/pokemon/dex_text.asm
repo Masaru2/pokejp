@@ -533,7 +533,7 @@ _DiglettDexEntry::
 	next "earthy soil, leav-"
 	next "ing raised earth"
 
-	page "its wake. as a"
+	page "on its wake. as a"
 	next "result, its rather"
 	next "easy to spot"
 	dex
@@ -1423,9 +1423,9 @@ _CharmeleonDexEntry::
 	next "its tail to kno-"
 	next "ck down its foe."
 
-	page "it then tears up"
+	page "It then tears up"
 	next "the opponent with"
-	next "sharp claws."
+	next "sharp claws"
 	dex
 
 _WartortleDexEntry::
@@ -1443,7 +1443,7 @@ _CharizardDexEntry::
 	next "carry a #MON to"
 	next "only 4.600 feet."
 
-	page "it blows out fire"
+	page "It blows out fire"
 	next "at very high"
 	next "temperatures"
 	dex
