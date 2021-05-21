@@ -803,8 +803,8 @@ _PokemonBooksText::
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "It's a Buddhist"
+	line "altar..."
 	done
 
 _ElevatorText::
@@ -1256,8 +1256,8 @@ _EnemyAppearedText::
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text ""
+	line "challenges you!"
 	prompt
 
 _UnveiledGhostText::

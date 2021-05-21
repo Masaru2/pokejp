@@ -11,7 +11,8 @@ _SilphCo6Text_1a24f::
 
 _SilphCo6Text_1a261::
 	text "Oh dear, oh dear."
-	line "Help me please!"
+	line "God and Buddha,"
+	cont "please help us!"
 	done
 
 _SilphCo6Text_1a266::
