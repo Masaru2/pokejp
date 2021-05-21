@@ -1155,7 +1155,11 @@ GeodudeDexEntry:
 	text_end
 
 PorygonDexEntry:
+IF DEF (_BLUE)
 	db "VIRTUAL@"
+ELSE
+	db "C.G.@"
+ENDC
 	db 2,7
 	dw 800
 	text_far _PorygonDexEntry

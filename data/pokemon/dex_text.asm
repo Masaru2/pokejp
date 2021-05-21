@@ -1369,9 +1369,9 @@ _GeodudeDexEntry::
 	dex
 
 _PorygonDexEntry::
-	text "Using the most"
-	next "advanced tecnolo-"
-	next "gies, scientifics"
+	text "Using advanced"
+	next "technologies,"
+	next "scientifics"
 
 	page "succeed on making"
 	next "the first artifi-"
