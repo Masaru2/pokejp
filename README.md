@@ -64,6 +64,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![green-title](screenshots/green-title.bmp)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
+![green-card](screenshots/green-card.bmp)
 
 **Pokémon Blue**
 
