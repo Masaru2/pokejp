@@ -150,11 +150,11 @@ _NidoranFDexEntry::
 
 _NidoqueenDexEntry::
 	text "The body is cover-"
-	next "ed by stiff, need-"
-	next "le-like scales."
+	next "ed by needle-like"
+	next "scales. If it"
 
-	page "If it becomes exc-"
-	next "ited, the needles"
+	page "becomes excited,"
+	next "the needles"
 	next "bristle outwards"
 	dex
 
@@ -254,8 +254,8 @@ _ScytherDexEntry::
 	next "its wickedly sharp"
 
 	page "scythes. It very"
-	next "rarely spreads its"
-	next "wings to fly"
+	next "rarely spreads"
+	next "its wings to fly"
 	dex
 
 _StaryuDexEntry::
@@ -314,8 +314,8 @@ _OnixDexEntry::
 	next "searches for food"
 
 	page "while boring its"
-	next "way at a speed of"
-	next "80km per hour"
+	next "way at a speed"
+	next "of 80kmph"
 	dex
 
 _FearowDexEntry::
@@ -585,7 +585,7 @@ _DoduoDexEntry::
 
 	page "sudden mutation."
 	next "It runs at a pace"
-	next "of 100km per hour"
+	next "of 100kmph"
 	dex
 
 _PoliwagDexEntry::
@@ -599,9 +599,9 @@ _PoliwagDexEntry::
 	dex
 
 _JynxDexEntry::
-	text "It speaks using a"
-	next "language that"
-	next "sounds human."
+	text "It speaks using"
+	next "an human-sounding"
+	next "language."
 
 	page "Research is under"
 	next "way to determine"
@@ -609,33 +609,33 @@ _JynxDexEntry::
 	dex
 
 _MoltresDexEntry::
-	text "One of the legen-"
-	next "dary bird #MON."
-	next "Its orange wings"
+	text "One of the"
+	next "legendary bird"
+	next "#MON."
 
-	page "that seem to be on"
-	next "fire can overwhelm"
+	page "Its blazing wings"
+	next "can overwhelm"
 	next "those who see it"
 	dex
 
 _ArticunoDexEntry::
-	text "One of the legen-"
-	next "dary bird #MON."
-	next "With its long tail"
+	text "One of the"
+	next "legendary bird"
+	next "#MON."
 
-	page "trailing behind,"
-	next "its flying form is"
-	next "magnificent"
+	page "Seeing the tail"
+	next "flow and fly away"
+	next "is wonderful"
 	dex
 
 _ZapdosDexEntry::
-	text "One of the legen-"
-	next "dary bird #MON."
-	next "While it is"
+	text "One of the"
+	next "legendary bird"
+	next "#MON."
 
-	page "flying, it makes"
-	next "cracking and"
-	next "snapping sounds"
+	page "It makes a"
+	next "crackling sound"
+	next "while flying"
 	dex
 
 _DittoDexEntry::
@@ -713,9 +713,9 @@ _DratiniDexEntry::
 	next "exceed 6.5 feet"
 	next "in length."
 
-	page "It grows larger by"
-	next "repeatedly shedd-"
-	next "ing skin"
+	page "It grows larger"
+	next "by repeatedly"
+	next "shedding skin"
 	dex
 
 _DragonairDexEntry::
@@ -809,13 +809,13 @@ _OmastarDexEntry::
 	dex
 
 _JigglypuffDexEntry::
-	text "It captivates foes"
-	next "with its huge,"
-	next "round eyes, then"
+	text "It captivates"
+	next "foes with its"
+	next "huge, round eyes,"
 
-	page "lulls them to"
-	next "sleep by singing a"
-	next "soothing melody"
+	page "then lulls them to"
+	next "sleep by singing"
+	next "a soothing melody"
 	dex
 
 _WigglytuffDexEntry::
@@ -1014,8 +1014,8 @@ _CaterpieDexEntry::
 	next "When it grows,"
 
 	page "it covers itself"
-	next "in slik and beco-"
-	next "mes a cocoon"
+	next "in slik and"
+	next "becomes a cocoon"
 	dex
 
 _MetapodDexEntry::
@@ -1030,12 +1030,12 @@ _MetapodDexEntry::
 
 _ButterfreeDexEntry::
 	text "Its wings are pro-"
-	next "tected by a rain-"
+	next "tected by a rain"
 	next "repellent dust."
 
-	page "As a result, this"
-	next "#MON can fly"
-	next "even in rain"
+	page "As a result,"
+	next "this #MON can"
+	next "fly even in rain"
 	dex
 
 _MachampDexEntry::
@@ -1081,21 +1081,21 @@ _GolbatDexEntry::
 _MewtwoDexEntry::
 	text "A #MON whose"
 	next "genetic code was"
-	next "re-combined for"
+	next "re-combined"
 
-	page "research. It"
-	next "turned vicious"
+	page "for research."
+	next "It turned vicious"
 	next "as a result"
 	dex
 
 _SnorlaxDexEntry::
 	text "Its not satisfied"
 	next "unless it eats"
-	next "400kg of food"
+	next "over 880 pounds"
 
-	page "every day. When"
-	next "its done eating,"
-	next "it falls asleep"
+	page "of food every day."
+	next "When it is done,"
+	next "It falls asleep"
 	dex
 
 _MagikarpDexEntry::
@@ -1311,7 +1311,7 @@ _PonytaDexEntry::
 _RapidashDexEntry::
 	text "It can gallop at"
 	next "a top speed of"
-	next "240km per hour."
+	next "240kmph."
 
 	page "It can race as"
 	next "fast as a bullet"
@@ -1339,9 +1339,9 @@ _RaticateDexEntry::
 	dex
 
 _NidorinoDexEntry::
-	text "It is easily ange-"
-	next "red. By swinging"
-	next "its well-developed"
+	text "Easy to anger."
+	next "By swinging its"
+	next "well-developed"
 
 	page "horn wildly, it"
 	next "can even punch"
@@ -1370,7 +1370,7 @@ _GeodudeDexEntry::
 
 _PorygonDexEntry::
 	text "Using advanced"
-	next "technologies,"
+	next "tecnologies,"
 	next "scientifics"
 
 	page "succeed on making"
@@ -1450,8 +1450,8 @@ _CharizardDexEntry::
 
 _OddishDexEntry::
 	text "Its scientific"
-	next "name is (Archi-"
-	next "medes.) At night,"
+	next "name is 'Archi-"
+	next "medes'. At night,"
 
 	page "it is said to walk"
 	next "nearly 1.000 feet"

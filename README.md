@@ -47,6 +47,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
 * Original Japanese map border layout restored.
 * Translated Red and Green Pokédex entries. (Most likely edited from the ones in FireRed)
+* The GYM leader names in the trainer card restored
 
 ## Screenshots
 
@@ -73,7 +74,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## To-do
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
-* Restore the GYM leader names in the trainer card
 * Restore the title screen movement for R/G
 
 ## Credits
@@ -84,3 +84,4 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave and for the Japanese Map Border Layout
 * Satomew for fixing the 2x2 tile glitch
 * INTERNETFRIEND/SPACEBOAT1999, Bela, bromage and lunos with helping me with port and translate the R/G and FR pokédex descriptions
+* Jojobear13 for the trainer card restoration code
