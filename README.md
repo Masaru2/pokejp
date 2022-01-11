@@ -85,4 +85,4 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave and for the Japanese Map Border Layout
 * Satomew for fixing the 2x2 tile glitch
 * INTERNETFRIEND/SPACEBOAT1999, Bela, bromage, lunos and jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
-* Jojobear13 for the trainer card restoration code
+* Jojobear13 for the trainer card restoration code and the R/G Shooting Star sfx code
