@@ -984,7 +984,7 @@ _DugtrioDexEntry::
 	next "It triggers huge"
 
 	page "earthquakes by"
-	next "burrowing 60 miles"
+	next "burrowing 100 km"
 	next "underground"
 	dex
 

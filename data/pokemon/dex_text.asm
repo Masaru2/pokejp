@@ -290,7 +290,7 @@ _PinsirDexEntry::
 
 _TangelaDexEntry::
 	text "Blue vines cloak"
-	next "the #MON’s"
+	next "the #MONs"
 	next "identity in a"
 
 	page "tangled mass. It"
@@ -471,7 +471,7 @@ _GolemDexEntry::
 _MagmarDexEntry::
 	text "Found near mouths"
 	next "of volcanos. This"
-	next "fire-breather’s"
+	next "fire-breather"
 	
 	page "body temperature"
 	next "is nearly 1,200"
@@ -559,8 +559,8 @@ _FarfetchdDexEntry::
 	dex
 
 _VenonatDexEntry::
-	text "Its eyes act as"
-	next "a radar, letting it"
+	text "Its eyes act as a"
+	next "radar, letting it"
 	next "be active in the"
 
 	page "dark. The eyes"
@@ -859,7 +859,7 @@ _JolteonDexEntry::
 	dex
 
 _VaporeonDexEntry::
-	text "Its body’s cell"
+	text "Its body cell"
 	next "structure is"
 	next "similar to a H2O"
 	
@@ -871,7 +871,7 @@ _VaporeonDexEntry::
 _MachopDexEntry::
 	text "Its whole body is"
 	next "made of muscles."
-	next "Though it’s the"
+	next "Though it's the"
 	
 	page "size of a human"
 	next "child, it can"
@@ -1419,13 +1419,13 @@ _SquirtleDexEntry::
 	dex
 
 _CharmeleonDexEntry::
-	text "From the time it"
-	next "is born, a flame"
-	next "burns at the tip"
+	text "It lashes about"
+	next "with its tail to"
+	next "knock down foes."
 	
-	page "of its tail. Its"
-	next "life would go out"
-	next "with this flame"
+	page "It then tears at"
+	next "the fallen with"
+	next "sharp claws"
 	dex
 
 _WartortleDexEntry::
