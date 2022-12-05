@@ -222,7 +222,7 @@ _CeruleanCityText13::
 _CeruleanCityText16::
 	text "Grass and caves"
 	line "handled easily!"
-	cont "MIRACLE BIKE SHOP"
+	cont "MIRACLE CYCLE"
 	done
 
 _CeruleanCityText17::
