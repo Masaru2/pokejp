@@ -43,12 +43,16 @@ _ViridianCityText_19157::
 	done
 
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "pass out here!"
-	cont "My goodness..."
-	cont "Sorry, but we'll"
-	cont "have to wait till"
-	cont "he sobers up."
+	text "Oh Grandpa!"
+	line "Sleeping here"
+	cont "of all places!"
+	
+	para "It can't be"
+	line "helped..."
+	
+	para "We have to wait"
+	line "until he sobers"
+	cont "up."
 	done
 
 _ViridianCityText_1917a::
@@ -60,11 +64,10 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "Urgh! Hic..."
-	line "hold on there!"
-	cont "C'mere an lissen"
-	cont "to what I hafta"
-	cont "say!"
+	text "Hey! Hic..."
+	line "Wait a minute!"
+	cont "Lissen to what"
+	cont "I hafta say!"
 
 	para "...Hey!"
 	line "I said don't go!"
@@ -104,9 +107,9 @@ _TM42NoRoomText::
 	done
 
 _ViridianCityText_1920a::
-	text "Mmm......"
-	line "Seems like I was"
-	cont "pretty drunk!"
+	text "Ugh..."
+	line "Looks like I was"
+	cont "drunk!"
 
 	para "My head hurts..."
 
