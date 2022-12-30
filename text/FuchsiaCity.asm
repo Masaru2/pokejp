@@ -16,9 +16,9 @@ _FuchsiaCityText2::
 	done
 
 _FuchsiaCityText3::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "KOJI: Where's"
+	line "ATSUKO? I said"
+	cont "I'd meet her here."
 	done
 
 _FuchsiaCityText4::
