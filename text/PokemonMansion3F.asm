@@ -32,6 +32,6 @@ _Mansion3Text5::
 	text "Diary: Feb. 6"
 	line "MEW gave birth."
 
-	para "We named the"
+	para "I named the"
 	line "newborn MEWTWO."
 	done

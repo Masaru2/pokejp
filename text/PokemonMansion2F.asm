@@ -27,7 +27,7 @@ _Mansion2Text3::
 
 _Mansion2Text4::
 	text "Diary: July 10"
-	line "We christened the"
+	line "I christened the"
 	cont "newly discovered"
 	cont "#MON, MEW."
 	done
