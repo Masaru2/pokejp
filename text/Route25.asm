@@ -35,10 +35,17 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
+IF DEF(_BLUE)
 	text "I'm a cool guy."
 	line "I've got a girl"
 	cont "friend!"
 	done
+ELSE
+	text "I'm a boy scout."
+	line "I've got a girl"
+	cont "friend!"
+	done
+ENDC
 
 _Route25EndBattleText3::
 	text "Aww,"

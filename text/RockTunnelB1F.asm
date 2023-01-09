@@ -1,5 +1,5 @@
 _RockTunnel2BattleText2::
-	text "Hikers leave twigs"
+	text "Scouts leave twigs"
 	line "as trail markers."
 	done
 
