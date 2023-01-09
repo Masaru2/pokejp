@@ -1,7 +1,7 @@
 # Pokémon Red, Green, and Blue JP: Masaru2 Edition
 
 **pokejp** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pokémon games.
-Improves the romhacks made by the user MoriyaFaith, restores and fixes various things that weren't in his romhack
+Improves the romhack made by the user MoriyaFaith and fixes various things that weren't in his romhack.
 
 It builds the following ROMs:
 
@@ -41,13 +41,13 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Pokémon Red and Green now use the original Cerulean Cave layout.
 * Pokémon Red and Green use their Overworld and Pokémon graphics from their original release.
 * Pokémon Green loads its unique Super Game Boy Palette.
-* Each game's Super Game Boy Border now has text saying "POKEMON!" where "POCKET MONSTERS!" normally is in the Japanese games.
+* Each game's Super Game Boy Border now has text saying "POKEMON!" where "POCKET MONSTERS!" normally is in the Japanese version.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
-* Fix the Game Freak Presents Bug where it dosen't appears where it's supposed.
+* Fixed The "Presents" Under the Game Freak logo not appearing where its supposed to.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
-* Original Japanese map border layout restored.
+* Original map border layout from the japanese version restored.
 * Translated Red and Green Pokédex entries.
-* The GYM leader names in the trainer card restored
+* The gym leader names in the trainer card restored.
 
 ## Screenshots
 
@@ -75,14 +75,14 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## To-do
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
-* Restore the title screen movement for R/G
+* Restore the title screen scrolling for R/G
 
 ## Credits
 
-* MoriyaFaith for his original project
-* The [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
+* MoriyaFaith for his original pokejp project
+* [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
 * Alchav's fork of pokered, which allowed usage of the RG sprites
-* Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps and Cerulean Cave and for the Japanese Map Border Layout
+* Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps, Cerulean Cave and the Japanese Map Border Layout
 * Satomew for fixing the 2x2 tile glitch
-* INTERNETFRIEND/SPACEBOAT1999, Bela, bromage, lunos and jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
-* Jojobear13 for the trainer card restoration code and the R/G Shooting Star sfx code
+* PPG6/Jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
+* Jojobear13 for the trainer card restoration code and the R/G Shooting Star SFX code
