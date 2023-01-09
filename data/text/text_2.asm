@@ -576,7 +576,7 @@ _IndigoPlateauHQText::
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
-	line "playing the SNES!"
+	line "playing the NES!"
 	cont "...Okay!"
 	cont "It's time to go!"
 	done
@@ -1257,7 +1257,7 @@ _EnemyAppearedText::
 _TrainerWantsToFightText::
 	text_ram wTrainerName
 	text ""
-	line "challenges you!"
+	line "challenged you!"
 	prompt
 
 _UnveiledGhostText::

@@ -38,8 +38,12 @@ _FuchsiaCityText11::
 	done
 
 _FuchsiaCityText13::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "The famous"
+	line "SAFARI GAME!"
+	
+	para "...Catch #MON"
+	line "to your heart's"
+	cont "content."
 	done
 
 _FuchsiaCityText16::
@@ -49,7 +53,8 @@ _FuchsiaCityText16::
 
 _FuchsiaCityText17::
 	text "#MON PARADISE"
-	line "SAFARI ZONE"
+	line "Welcome to the"
+	cont "SAFARI ZONE!"
 	done
 
 _FuchsiaCityText18::
