@@ -1,5 +1,7 @@
-# compiled objects
-*.o
+# This file is used to ignore files that should not be pushed to the repo.
+# ----------------------------------------------------------------------------
+
+# Pokered Specific
 
 # compiled graphics
 *.1bpp
@@ -14,9 +16,6 @@
 *.map
 *.sym
 
-# tool binaries
-*.exe
-
 # precompiled python
 *.pyc
 *$py.class
@@ -28,3 +27,45 @@
 *.sn*
 *.sa*
 *.sg1
+
+
+# General Catch Alls
+
+# directories
+.vs
+.vscode
+
+# generic files
+.DS_Store
+Thumbs.db
+
+# binaries
+*.exe
+*.bat
+
+# c++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# visual studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.ncb
+*.opensdf
+*.pdb
+*.sdf
+*.sln
+*.suo
+*.vcproj
+*.vcxproj
+*vcproj.*.*.user
+*vcxproj.*
