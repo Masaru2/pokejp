@@ -1,28 +1,28 @@
-farcall: MACRO
+MACRO farcall
 	ld b, BANK(\1)
 	ld hl, \1
 	call Bankswitch
 ENDM
 
-callfar: MACRO
+MACRO callfar
 	ld hl, \1
 	ld b, BANK(\1)
 	call Bankswitch
 ENDM
 
-farjp: MACRO
+MACRO farjp
 	ld b, BANK(\1)
 	ld hl, \1
 	jp Bankswitch
 ENDM
 
-jpfar: MACRO
+MACRO jpfar
 	ld hl, \1
 	ld b, BANK(\1)
 	jp Bankswitch
 ENDM
 
-homecall: MACRO
+MACRO homecall
 	ldh a, [hLoadedROMBank]
 	push af
 	ld a, BANK(\1)

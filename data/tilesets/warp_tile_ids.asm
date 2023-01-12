@@ -24,7 +24,7 @@ WarpTileIDPointers:
 	dw .FacilityWarpTileIDs
 	dw .PlateauWarpTileIDs
 
-warp_tiles: MACRO
+MACRO warp_tiles
 REPT _NARG
 	db \1
 	shift

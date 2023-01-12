@@ -2,12 +2,12 @@
 
 percent EQUS "* $ff / 100"
 
-bcd2: MACRO
+MACRO bcd2
 	dn ((\1) / 1000) % 10, ((\1) / 100) % 10
 	dn ((\1) / 10) % 10, (\1) % 10
 ENDM
 
-bcd3: MACRO
+MACRO bcd3
 	dn ((\1) / 100000) % 10, ((\1) / 10000) % 10
 	dn ((\1) / 1000) % 10, ((\1) / 100) % 10
 	dn ((\1) / 10) % 10, (\1) % 10
@@ -16,7 +16,7 @@ ENDM
 coins EQUS "bcd2"
 money EQUS "bcd3"
 
-tmhm: MACRO
+MACRO tmhm
 ; used in data/pokemon/base_stats/*.asm
 _tms1 = 0 ; TM01-TM24 (24)
 _tms2 = 0 ; TM25-TM48 (24)
@@ -52,29 +52,29 @@ ENDM
 
 ; Constant data (db, dw, dl) macros
 
-dn: MACRO ; nybbles
+MACRO dn ; nybbles
 	db (\1 << 4 | \2)
 ENDM
 
-dbw: MACRO
+MACRO dbw
 	db \1
 	dw \2
 ENDM
 
-dba: MACRO
+MACRO dba
 	dbw BANK(\1), \1
 ENDM
 
-dwb: MACRO
+MACRO dwb
 	dw \1
 	db \2
 ENDM
 
-dab: MACRO
+MACRO dab
 	dwb \1, BANK(\1)
 ENDM
 
-dbbw: MACRO
+MACRO dbbw
 	db \1, \2
 	dw \3
 ENDM

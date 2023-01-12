@@ -646,7 +646,7 @@ BattleTransition_Circle_Sub2:
 	ld l, a
 	jp BattleTransition_Circle_Sub3
 
-half_circle: MACRO
+MACRO half_circle
 	; quadrant x, circle data, target coord
 	db \1
 	dw \2
