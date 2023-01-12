@@ -1,6 +1,7 @@
 SECTION "Tilesets 1", ROMX
 
-Overworld_GFX::     IF DEF(_BLUE)
+Overworld_GFX::     
+IF DEF(_BLUE)
 INCBIN "gfx/tilesets/overworld_b.2bpp"
 ELSE
 INCBIN "gfx/tilesets/overworld.2bpp"
