@@ -27,9 +27,15 @@ DisplayTitleScreen:
 	ldh [hAutoBGTransferEnabled], a
 	xor a
 	ldh [hTilesetType], a
+IF DEF(_BLUE)
 	ldh [hSCX], a
 	ld a, $40
 	ldh [hSCY], a
+ELSE
+	ldh [hSCY], a
+	ld a, -112
+	ldh [hSCX], a
+ENDC
 	ld a, $90
 	ldh [hWY], a
 	call ClearScreen
@@ -152,9 +158,18 @@ ENDC
 	ld a, %11100100
 	ldh [rOBP0], a
 
+IF DEF(_BLUE)
 ; make pokemon logo bounce up and down
 	ld bc, hSCY ; background scroll Y
 	ld hl, .TitleScreenPokemonLogoYScrolls
+ELSE
+	ld a, SFX_INTRO_WHOOSH
+	call PlaySound
+	
+; make pokemon logo slide in from the right
+	ld bc, hSCX ; background scroll X
+	ld hl, .TitleScreenPokemonLogoXScrolls
+ENDC
 .bouncePokemonLogoLoop
 	ld a, [hli]
 	and a
@@ -170,6 +185,7 @@ ENDC
 	call .ScrollTitleScreenPokemonLogo
 	jr .bouncePokemonLogoLoop
 
+IF DEF(_BLUE)
 .TitleScreenPokemonLogoYScrolls:
 ; Controls the bouncing effect of the Pokemon logo on the title screen
 	db -4,16  ; y scroll amount, number of times to scroll
@@ -179,6 +195,10 @@ ENDC
 	db -2,2
 	db 1,2
 	db -1,2
+ELSE
+	.TitleScreenPokemonLogoXScrolls:
+	db 4,28  ; y scroll amount, number of times to scroll
+ENDC
 	db 0      ; terminate list with 0
 
 .ScrollTitleScreenPokemonLogo:
@@ -196,13 +216,18 @@ ENDC
 	call LoadScreenTilesFromBuffer1
 	ld c, 36
 	call DelayFrames
+IF DEF(_BLUE)
 	ld a, SFX_INTRO_WHOOSH
 	call PlaySound
+ELSE
+	;nothing
+ENDC
 
 ; scroll game version in from the right
 	call PrintGameVersionOnTitleScreen
 	ld a, SCREEN_HEIGHT_PX
 	ldh [hWY], a
+IF DEF(_BLUE)
 	ld d, 144
 .scrollTitleScreenGameVersionLoop
 	ld h, d
@@ -216,6 +241,9 @@ ENDC
 	ld d, a
 	and a
 	jr nz, .scrollTitleScreenGameVersionLoop
+ELSE
+	call Delay3
+ENDC
 
 	ld a, HIGH(vBGMap1)
 	call TitleScreenCopyTileMapToVRAM
