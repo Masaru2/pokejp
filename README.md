@@ -5,12 +5,15 @@ Improves the romhack made by the user MoriyaFaith and fixes various things that 
 
 It builds the following ROMs:
 
-* Pokemon Red.gb 
-* Pokemon Green.gb  
-* Pokemon Blue.gb 
-* Pokemon Red Debug.gb
-* Pokemon Green Debug.gb
-* Pokemon Blue Debug.gb 
+* Pokered.gb 
+* Pokegreen.gb  
+* Pokeblue.gb
+
+As well as these:
+ 
+* Pokered_debug.gb
+* Pokegreen_debug.gb
+* Pokeblue_debug.gb 
 
 ## Downloading and playing
 In the case of simply wanting to play generation 1 as it was released in Japan, download the .bps patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.

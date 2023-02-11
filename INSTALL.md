@@ -178,3 +178,9 @@ To build **pokered.gbc**, **pokegreen.gbc** and **pokeblue.gbc**:
 ```bash
 make
 ```
+
+To build debug roms:
+
+```bash
+make DEBUG=1
+```
