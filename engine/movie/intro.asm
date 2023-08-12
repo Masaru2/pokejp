@@ -31,7 +31,11 @@ PlayIntroScene:
 	ldh [hSCX], a
 	ld b, TILEMAP_GENGAR_INTRO_1
 	call IntroCopyTiles
+IF DEF(_BLUE)
 	ld a, 0
+ELSE  ; Nidorino is 8px further over Jigglypuff in the JP Red and Green
+	ld a, 8
+ENDC
 	ld [wBaseCoordX], a
 	ld a, 80
 	ld [wBaseCoordY], a
@@ -138,7 +142,14 @@ PlayIntroScene:
 	ld a, (FightIntroFrontMon3 - FightIntroFrontMon) / LEN_2BPP_TILE
 	ld [wIntroNidorinoBaseTile], a
 	ld de, IntroNidorinoAnimation7
+IF DEF(_BLUE)
 	jp AnimateIntroNidorino
+ELSE
+	call AnimateIntroNidorino
+	ld c, 80
+	call DelayFrames
+	ret
+ENDC
 
 AnimateIntroNidorino:
 	ld a, [de]
