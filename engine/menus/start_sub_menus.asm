@@ -557,8 +557,11 @@ DrawTrainerInfo:
 	call PlaceString
 	hlcoord 8, 4
 	ld de, wPlayerMoney
-	ld c, $e3
-	call PrintBCDNumber
+	ld c, $c3 ; hides money sign in front of sum on trainer card, seemingly without breaking anything - taken from pokered-jp
+	call PrintBCDNumber  ; prints sum of money on the trainer card
+	ld a, $f0  ; Loads the tile ID number for yen ("f0", viewable via right-clicking on an open rom, options > VRAM viewer in GBG emulator, also appears in charmap.asm)
+	ld [hl], a ; places (prints) the tile for yen directly after the printed BCD number, so we see it onscreen
+; end code to put yen after money in trainer card screen
 	hlcoord 9, 6
 	ld de, wPlayTimeHours ; hours
 	lb bc, LEFT_ALIGN | 1, 3

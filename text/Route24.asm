@@ -7,8 +7,9 @@ _Route24Text_51510::
 _Route24Text_51515::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Open up your hand"
+	line "while I whip out"
+	cont "my nuggets."
 	prompt
 
 _Route24Text_5151a::

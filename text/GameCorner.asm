@@ -14,7 +14,7 @@ _CeladonGameCornerText_48d22::
 	para "Do you need some"
 	line "game coins?"
 
-	para "It's ¥1000 for 50"
+	para "It's 1000¥ for 50"
 	line "coins. Would you"
 	cont "like some?"
 	done

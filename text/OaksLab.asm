@@ -8,6 +8,7 @@ _OaksLabText40::
 	text "<RIVAL>: Heh, I"
 	line "don't need to be"
 	cont "greedy like you!"
+	cont "I'm mature!"
 
 	para "Go ahead and"
 	line "choose, <PLAYER>!"

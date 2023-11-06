@@ -108,8 +108,8 @@ _TM42NoRoomText::
 
 _ViridianCityText_1920a::
 	text "Ugh..."
-	line "Looks like I was"
-	cont "drunk!"
+	line "Seems that I"
+	cont "was drunk!"
 
 	para "My head hurts..."
 

@@ -27,9 +27,9 @@ _Route10EndBattleText2::
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha!"
-	line "Ha-ha-ha!"
-	cont "ha... ha..."
+	text "Haha-ha-ha!"
+	line "Ha-haha..."
+	cont "Haha..."
 	done
 
 _Route10BattleText3::

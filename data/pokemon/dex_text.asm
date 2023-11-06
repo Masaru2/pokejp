@@ -13,7 +13,7 @@ _KangaskhanDexEntry::
 	next "babies in a pouch"
 	next "of its belly."
 
-	page "It is skilled at"
+	page "It is skilled"
 	next "attacking using"
 	next "COMET PUNCH"
 	dex
@@ -1130,8 +1130,8 @@ _KinglerDexEntry::
 
 _CloysterDexEntry::
 	text "Its shell is so"
-	next "hard that not"
-	next "even a bomb can"
+	next "hard that not even"
+	next "a napalm bomb can"
 	
 	page "shatter it. The"
 	next "shell opens only"
@@ -1140,7 +1140,7 @@ _CloysterDexEntry::
 
 _ElectrodeDexEntry::
 	text "It explodes in"
-	next "respond to even"
+	next "response to even"
 	next "minor stimuli."
 
 	page "It is feared, with"

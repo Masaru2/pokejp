@@ -26,5 +26,5 @@ _LavenderMartNuggetText::
 
 	para "I thought it was"
 	line "useless, but it"
-	cont "sold for ¥5000!"
+	cont "sold for 5000¥!"
 	done

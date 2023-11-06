@@ -865,9 +865,9 @@ _EnemyMonFaintedText::
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> got @"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text_start
+	text "¥"
 	line "for winning!"
 	prompt
 
@@ -1257,7 +1257,7 @@ _EnemyAppearedText::
 _TrainerWantsToFightText::
 	text_ram wTrainerName
 	text ""
-	line "challenged you!"
+	line "challenges you!"
 	prompt
 
 _UnveiledGhostText::
@@ -1342,9 +1342,9 @@ _SafariZoneAngryText::
 ; money related
 _PickUpPayDayMoneyText::
 	text "<PLAYER> picked up"
-	line "¥@"
+	line "@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
+	text "¥!"
 	prompt
 
 _ClearSaveDataText::

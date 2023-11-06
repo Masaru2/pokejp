@@ -293,8 +293,10 @@ DisplayChooseQuantityMenu::
 	ld de, SpacesBetweenQuantityAndPriceText
 	call PlaceString
 	ld de, hMoney ; total price
-	ld c, $a3
+	ld c, $83
 	call PrintBCDNumber
+	ld a, $f0
+	ld [hl], a
 	hlcoord 9, 10
 .printQuantity
 	ld de, wItemQuantity ; current quantity
@@ -418,8 +420,10 @@ PrintListMenuEntries::
 	pop hl
 	ld bc, SCREEN_WIDTH + 5 ; 1 row down and 5 columns right
 	add hl, bc
-	ld c, $a3 ; no leading zeroes, right-aligned, print currency symbol, 3 bytes
+	ld c, $83 ; remove yen sign from in front of item prices in item list in shop
 	call PrintBCDNumber
+	ld a, $f0 ; load value for yen sign ($f0 in charmap.asm)
+	ld [hl], a ; print yen sign directly after price
 .skipPrintingItemPrice
 	ld a, [wListMenuID]
 	and a ; PCPOKEMONLISTMENU?

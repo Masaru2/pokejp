@@ -83,7 +83,7 @@ BikeShopMenuText:
 	next "CANCEL@"
 
 BikeShopMenuPrice:
-	db "¥1000000@"
+	db "1000000¥@"
 
 BikeShopText_1d810:
 	text_far _BikeShopText_1d810

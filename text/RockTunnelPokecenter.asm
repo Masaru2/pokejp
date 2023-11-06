@@ -9,5 +9,5 @@ _RockTunnelPokecenterText2::
 
 _RockTunnelPokecenterText3::
 	text "I sold a useless"
-	line "NUGGET for ¥5000!"
+	line "NUGGET for 5000¥!"
 	done

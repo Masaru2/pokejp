@@ -139,8 +139,11 @@ DisplayMoneyBox:
 	call ClearScreenArea
 	hlcoord 12, 1
 	ld de, wPlayerMoney
-	ld c, $a3
+	ld c, $83 ; value $83 obtained from pokered-jp. replacing with $a3 moves money digits + yen sign to far right of money box instead of far left.
 	call PrintBCDNumber
+; After printing the BCD number (sum of player's owned money in shop money box), print the yen symbol
+	ld a, $f0  ; Loads the tile ID number for yen ($f0 in charmap) into register a
+	ld [hl], a ; places (prints) the tile for yen directly after the printed BCD number, so we see it onscreen
 	ld hl, wd730
 	res 6, [hl]
 	ret

@@ -3,7 +3,7 @@ _Museum1FText_5c21a::
 	done
 
 _Museum1FText_5c21f::
-	text "It's ¥50 for a"
+	text "It's 50¥ for a"
 	line "child's ticket."
 
 	para "Would you like to"
@@ -11,7 +11,7 @@ _Museum1FText_5c21f::
 	done
 
 _Museum1FText_5c224::
-	text "Right, ¥50!"
+	text "Right, 50¥!"
 	line "Thank you!"
 	done
 
@@ -53,9 +53,14 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "I should be"
+	line "grateful for"
+	cont "my long life!"
+	
+	para "I never thought I"
+	line "would ever look"
+	cont "upon the Dragon"
+	cont "God's bones!"
 	done
 
 _Museum1FText_5c28e::

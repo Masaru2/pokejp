@@ -11,12 +11,14 @@ _Route24AfterBattleText1::
 
 _Route24BattleText2::
 	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	line "This time, I'll"
+	cont "be your partner."
 	done
 
 _Route24EndBattleText2::
 	text "Whoa!"
-	line "Too much!"
+	line "You're too wild"
+	cont "for me!"
 	prompt
 
 _Route24AfterBattleText2::
@@ -41,12 +43,14 @@ _Route24AfterBattleText3::
 
 _Route24BattleText4::
 	text "Here's No. 3!"
-	line "I won't be easy!"
+	line "I won't finish"
+	cont "so quickly!"
 	done
 
 _Route24EndBattleText4::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Ugh!"
+	line "I can't last"
+	cont "any longer."
 	prompt
 
 _Route24AfterBattleText4::
@@ -56,24 +60,26 @@ _Route24AfterBattleText4::
 
 _Route24BattleText5::
 	text "I'm second!"
-	line "Now it's serious!"
+	line "I'm ready to go"
+	cont "all the way!"
 	done
 
 _Route24EndBattleText5::
-	text "How could I"
-	line "lose?"
+	text "That was"
+	line "unbelieveable."
 	prompt
 
 _Route24AfterBattleText5::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "I did my best, so"
+	line "I've no regrets!"
 	done
 
 _Route24BattleText6::
 	text "This is NUGGET"
 	line "BRIDGE! Beat us 5"
 	cont "trainers and win"
-	cont "a fabulous prize!"
+	cont "a surprise from"
+	cont "the nugget sack!"
 
 	para "Think you got"
 	line "what it takes?"

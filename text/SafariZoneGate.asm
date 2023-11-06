@@ -14,7 +14,7 @@ SafariZoneEntranceText_9e6e4::
 	text_end
 
 SafariZoneEntranceText_9e747::
-	text "That'll be ¥500"
+	text "That'll be 500¥"
 	line "please!"
 
 	para "We only use a"
