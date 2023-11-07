@@ -491,8 +491,10 @@ CeladonGameCornerScript_48f1e:
 	call PlaceString
 	hlcoord 12, 3
 	ld de, wPlayerMoney
-	ld c, $a3
+	ld c, $83
 	call PrintBCDNumber
+	ld a, $f0
+	ld [hl], a
 	hlcoord 12, 4
 	ld de, GameCornerCoinText
 	call PlaceString
