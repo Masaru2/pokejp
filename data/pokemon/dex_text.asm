@@ -13,7 +13,7 @@ _KangaskhanDexEntry::
 	next "babies in a pouch"
 	next "of its belly."
 
-	page "It is skilled"
+	page "It is skilled at"
 	next "attacking using"
 	next "COMET PUNCH"
 	dex
