@@ -4,7 +4,7 @@ _SafariZoneEntranceText1::
 	done
 
 SafariZoneEntranceText_9e6e4::
-	text "For just ¥500,"
+	text "For just 500¥,"
 	line "you can catch all"
 	cont "the #MON you"
 	cont "want in the park!"
