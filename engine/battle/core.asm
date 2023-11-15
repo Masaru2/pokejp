@@ -2100,7 +2100,7 @@ DisplayBattleMenu::
 .safariRightColumn
 	ldcoord_a 1, 14 ; clear upper cursor position in left column
 	ldcoord_a 1, 16 ; clear lower cursor position in left column
-	hlcoord 5, 14
+	hlcoord 7, 14
 	ld de, wNumSafariBalls
 	lb bc, 1, 2
 	call PrintNumber
