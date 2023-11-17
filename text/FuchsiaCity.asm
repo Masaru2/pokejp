@@ -28,7 +28,7 @@ _FuchsiaCityText3::
 
 _FuchsiaCityText4::
 	text "That item ball in"
-	line "there…"
+	line "there..."
 	
 	para "Were you wanting"
 	line "that? Me, too!"
