@@ -10,8 +10,9 @@ _SilphCo6Text_1a24f::
 	done
 
 _SilphCo6Text_1a261::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Shiver..."
+	line "God, Buddha,"
+	cont "help!"
 	done
 
 _SilphCo6Text_1a266::
@@ -20,14 +21,16 @@ _SilphCo6Text_1a266::
 	done
 
 _SilphCo6Text_1a278::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "That man next to"
+	line "me... He's such"
+	cont "a coward!"
 	done
 
 _SilphCo6Text_1a27d::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "He's so helpless,"
+	line "he needed someone"
+	cont "like me to look"
+	cont "after him."
 	done
 
 _SilphCo6Text_1a28f::
@@ -77,7 +80,7 @@ _SilphCo6BattleText3::
 
 	para "He shouldn't have"
 	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	cont "TUNGUSKA BRANCH!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -85,7 +88,7 @@ _SilphCo6EndBattleText3::
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
+	text "TUNGUSKA BRANCH?"
 	line "It's in Russian"
 	cont "no man's land!"
 	done
