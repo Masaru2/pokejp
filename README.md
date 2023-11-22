@@ -99,3 +99,4 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * PPG6/Jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
 * Jojobear13 for the trainer card restoration code and the R/G Shooting Star SFX code
 * Luckytyploshion for his [pokered-jp](https://github.com/luckytyphlosion/pokered-jp) repository
+* Pret and marklincadet for their suggestions
