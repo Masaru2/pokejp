@@ -18,7 +18,7 @@ As well as these:
 ## Downloading and playing
 Download the patches from the [Release](https://github.com/Masaru2/pokejp/releases) page, there will be two Zip files: **main.zip** are the normal patches, **debug.zip** are the debug patches.
 
-##How do I patch the rom and what roms should I use?
+## How do I patch the rom and what roms should I use?
 
 Use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch 
 
