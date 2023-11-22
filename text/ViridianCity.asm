@@ -69,7 +69,7 @@ _ViridianCityText_19191::
 	cont "Lissen to what"
 	cont "I hafta say!"
 
-	para "...Hey!"
+	para "...Wait!"
 	line "I said don't go!"
 	done
 
