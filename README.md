@@ -16,7 +16,10 @@ As well as these:
 * Pokeblue_debug.gb 
 
 ## Downloading and playing
-In the case of simply wanting to play generation 1 as it was released in Japan, download the .bps patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
+Download the patches from the [Release](https://github.com/Masaru2/pokejp/releases) page, there will be two Zip files: **main.zip** are the normal patches, **debug.zip** are the debug patches.
+
+##How do I patch the rom and what roms should I use?
+Use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch 
 
 These are the roms you should use for each version:
 
@@ -39,7 +42,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ## What's changed?
 
 * Any bugs present in the original Red and Green that are not in International Red and Blue are not present and viceversa.
-* The title screen of Pokemon Red and Green has been changed to the original Japanese release.
+* The Title Screen of Pokemon Red and Green has been changed to the original Japanese release.
+* R/G Title Screen scrolling and SFX has been restored (Partially).
 * Pokémon Blue's wild Pokémon data has been edited to the Japanese release. Pokémon Green uses US Blue's wild data.
 * Pokémon Red and Green now use the original Cerulean Cave layout.
 * Pokémon Red and Green use their Overworld and Pokémon graphics from their original release.
@@ -49,8 +53,12 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Fixed The "Presents" Under the Game Freak logo not appearing where its supposed to.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
 * Original map border layout from the japanese version restored.
-* Translated Red and Green Pokédex entries.
-* The gym leader names in the trainer card restored.
+* Translated Red and Green Pokédex entries.(Ported from FRLG)
+* Various censored text restored, relocalized or ported directly from FRLG
+* The Gym Leader names in the Trainer Card restored.
+* The original monetary symbol (円) restored.
+* Battle layout restored to its japanese form.
+* Small Easter Eggs between versions.
 
 ## Screenshots
 
@@ -68,6 +76,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
+![green-battle](screenshots/green-battle.bmp)
 
 **Pokémon Blue**
 
@@ -78,7 +87,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## To-do
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
-* Restore the title screen scrolling for R/G
 
 ## Credits
 
@@ -89,3 +97,4 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Satomew for fixing the 2x2 tile glitch
 * PPG6/Jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
 * Jojobear13 for the trainer card restoration code and the R/G Shooting Star SFX code
+* Luckytyploshion for his [pokered-jp](https://github.com/luckytyphlosion/pokered-jp) repository
