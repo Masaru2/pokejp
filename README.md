@@ -43,8 +43,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ## What's changed?
 
 * Any bugs present in the original Red and Green that are not in International Red and Blue are not present and viceversa.
-* The Title Screen of Pokemon Red and Green has been changed to the original Japanese release.
-* R/G Title Screen scrolling and SFX has been restored (Partially).
+* The Title Screen of Pokemon Red and Green has been changed to the original Japanese release. (Partially)
 * Pokémon Blue's wild Pokémon data has been edited to the Japanese release. Pokémon Green uses US Blue's wild data.
 * Pokémon Red and Green now use the original Cerulean Cave layout.
 * Pokémon Red and Green use their Overworld and Pokémon graphics from their original release.
@@ -54,12 +53,11 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Fixed The "Presents" Under the Game Freak logo not appearing where its supposed to.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
 * Original map border layout from the japanese version restored.
-* Translated Red and Green Pokédex entries.(Ported from FRLG)
-* Various censored text restored, relocalized or ported directly from FRLG
+* Translated Red and Green Pokédex entries (Ported from FRLG).
+* Various changed or censored text restored between R/G and International R/B Restored, Relocalized or ported from FRLG
 * The Gym Leader names in the Trainer Card restored.
-* The original monetary symbol (円) restored.
-* Battle layout restored to its japanese form.
-* Small Easter Eggs between versions.
+* Japanese money symbol (円) and position restored.
+* Battle Interface from the japanese version restored
 
 ## Screenshots
 
@@ -88,6 +86,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## To-do
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
+* Restore Body Slam original animation
+* Restore R/G intro timing and music
 
 ## Credits
 
