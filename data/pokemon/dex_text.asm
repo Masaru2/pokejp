@@ -1379,13 +1379,13 @@ _PorygonDexEntry::
 	dex
 
 _AerodactylDexEntry::
-	text "Using the latest"
-	next "technologies,"
-	next "scientists"
+	text "It was restored"
+	next "from a dinosaur's"
+	next "DNA found inside"
 	
-	page "finally made the"
-	next "first artificial"
-	next "#MON"
+	page "amber. It makes"
+	next "high-pitched"
+	next "cries as it soars"
 	dex
 
 _MagnemiteDexEntry::
