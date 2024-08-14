@@ -103,7 +103,7 @@ _LickitungDexEntry::
 	next "twice the length"
 	next "of its body. Like"
 
-	page "and arm, it can"
+	page "an arm, it can"
 	next "moved to grab"
 	next "food and attack"
 	dex
