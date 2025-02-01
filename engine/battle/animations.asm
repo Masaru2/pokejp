@@ -765,22 +765,17 @@ DoRockSlideSpecialEffects:
 	ld b, 1
 	predef_jump PredefShakeScreenVertically ; shake vertically
 
-FlashScreenEveryEightFrameBlocks:
+FlashScreenEveryTwoFrameBlocks:
 	ld a, [wSubAnimCounter]
-	srl a
-	call c, AnimationFlashScreen
-	ret
-
-; flashes the screen if the subanimation counter is divisible by 4
-FlashScreenEveryFourFrameBlocks:
-	jp AnimationFlashScreen
+	srl a ; is the subanimation counter an odd value?
+	call c, AnimationFlashScreen ; if so, flash the screen
 	ret
 
 ; used for Explosion and Selfdestruct
 DoExplodeSpecialEffects:
 	ld a, [wSubAnimCounter]
 	cp 1 ; is it the end of the subanimation?
-	jr nz, FlashScreenEveryFourFrameBlocks
+	jp nz, AnimationFlashScreen
 ; if it's the end of the subanimation, make the attacking pokemon disappear
 	hlcoord 1, 5
 	jp AnimationHideMonPic ; make pokemon disappear
@@ -935,7 +930,7 @@ CallWithTurnFlipped:
 
 ; flashes the screen for an extended period (48 frames)
 AnimationFlashScreenLong:
-	ld a, 3 ; cycle through the palettes 3 times
+	ld a, 4 ; cycle through the palettes 4 times
 	ld [wFlashScreenLongCounter], a
 	ld a, [wOnSGB] ; running on SGB?
 	and a
@@ -991,14 +986,18 @@ FlashScreenLongSGB:
 	db %11100100 ; 3, 2, 1, 0
 	db $01 ; terminator
 
-; causes a delay of 2 frames for the first cycle
-; causes a delay of 1 frame for the second and third cycles
+; note by Narishma-gb
+; causes a delay of 4 frames for the first cycle, 3 frames for the second cycle,
+; 2 frames for the third cycle and 1 frame for the fourth cycle
 FlashScreenLongDelay:
 	ld a, [wFlashScreenLongCounter]
-	cp 4 ; never true since [wFlashScreenLongCounter] starts at 3
+	cp 4
 	ld c, 4
 	jr z, .delayFrames
 	cp 3
+	ld c, 3
+	jr z, .delayFrames
+	cp 2
 	ld c, 2
 	jr z, .delayFrames
 	cp 2 ; nothing is done with this
