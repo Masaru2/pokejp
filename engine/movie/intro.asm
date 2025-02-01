@@ -147,8 +147,12 @@ IF DEF(_BLUE)
 ELSE
 	call AnimateIntroNidorino
 	ld c, 80
+ENDC
+IF DEF(_BLUE)
 	call DelayFrames
 	ret
+ELSE
+	jp CheckForUserInterruption
 ENDC
 
 AnimateIntroNidorino:

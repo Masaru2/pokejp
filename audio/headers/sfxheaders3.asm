@@ -284,10 +284,18 @@ SFX_Intro_Lunge::
 	audio_header SFX_Intro_Lunge, Ch8
 
 SFX_Intro_Hip::
+IF DEF(_BLUE)
 	audio_header SFX_Intro_Hip, Ch5
+ELSE
+	audio_header SFX_Intro_Hip, Ch8
+ENDC
 
 SFX_Intro_Hop::
+IF DEF(_BLUE)
 	audio_header SFX_Intro_Hop, Ch5
+ELSE
+	audio_header SFX_Intro_Hip, Ch8
+ENDC
 
 SFX_Intro_Raise::
 	audio_header SFX_Intro_Raise, Ch8
