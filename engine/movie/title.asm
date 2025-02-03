@@ -214,7 +214,11 @@ ENDC
 
 .finishedBouncingPokemonLogo
 	call LoadScreenTilesFromBuffer1
+IF DEF(_BLUE)
 	ld c, 36
+ELSE
+	ld c, $14
+ENDC
 	call DelayFrames
 IF DEF(_BLUE)
 	ld a, SFX_INTRO_WHOOSH
