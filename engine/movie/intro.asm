@@ -147,11 +147,6 @@ IF DEF(_BLUE)
 ELSE
 	call AnimateIntroNidorino
 	ld c, 80
-ENDC
-IF DEF(_BLUE)
-	call DelayFrames
-	ret
-ELSE
 	jp CheckForUserInterruption
 ENDC
 
@@ -340,16 +335,9 @@ PlayShootingStar:
 	call DelayFrames
 	farcall AnimateShootingStar
 	push af
+	call IntroLoadPresentsTiles
 	pop af
 	jr c, .next ; skip the delay if the user interrupted the animation
-	hlcoord 7, 11
-	ld c, 6
-	ld a, $67
-.loop
-    ld [hli], a
-    inc a
-    dec c
-    jr nz, .loop
 	ld c, 40
 	call DelayFrames
 .next
@@ -379,8 +367,14 @@ IntroDrawBlackBars:
 	ld c,  BG_MAP_WIDTH * 4
 	jp IntroPlaceBlackTiles
 
-EmptyFunc2:
-	ret
+IntroLoadPresentsTiles:
+	hlcoord 7, 11
+	ld de, PresentsTextString
+	jp PlaceString
+	
+PresentsTextString:
+	db $67, $68, $69, $6A, $6B, $6C ; PRESENTS
+	db "@"
 
 IntroNidorinoAnimation0:
 	db 0, 0
