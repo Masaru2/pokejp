@@ -268,10 +268,12 @@ ENDC
 	call CheckForUserInterruption
 	jr c, .finishedWaiting
 	call TitleScreenScrollInMon
+IF DEF(_BLUE)
 	ld c, 1
 	call CheckForUserInterruption
 	jr c, .finishedWaiting
 	farcall TitleScreenAnimateBallIfStarterOut
+ENDC
 	call TitleScreenPickNewMon
 	jr .awaitUserInterruptionLoop
 
@@ -283,7 +285,11 @@ ENDC
 	call ClearSprites
 	xor a
 	ldh [hWY], a
+IF DEF(_BLUE)
 	inc a
+ELSE
+	ld a, 1
+ENDC
 	ldh [hAutoBGTransferEnabled], a
 	call ClearScreen
 	ld a, HIGH(vBGMap0)

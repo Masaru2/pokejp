@@ -24,18 +24,32 @@ ENDC
 TitleScroll:
 	ld a, d
 
+IF DEF(_BLUE)
 	ld bc, TitleScroll_In
 	ld d, $88
 	ld e, 0 ; don't animate titleball
+ELSE
+	lb bc, $8, $14
+ENDC
 
 	and a
+IF DEF(_BLUE)
 	jr nz, .ok
+ELSE
+	jr z, .ok
+ENDC
 
+IF DEF(_BLUE)
 	ld bc, TitleScroll_Out
 	ld d, $00
 	ld e, 0 ; don't animate titleball
+ELSE
+	ld d, $a0
+	ld c, $c
+ENDC
 .ok
 
+IF DEF(_BLUE)
 _TitleScroll:
 	ld a, [bc]
 	and a
@@ -51,6 +65,7 @@ _TitleScroll:
 	and $f0
 	swap a
 	ld b, a
+ENDC
 
 .loop
 	ld h, d
@@ -65,12 +80,21 @@ _TitleScroll:
 	add b
 	ld d, a
 
+IF DEF(_BLUE)
 	call GetTitleBallY
+ENDC
 	dec c
 	jr nz, .loop
+IF DEF(_BLUE)
+	; nothing
+ELSE
+	ret
+ENDC
 
+IF DEF(_BLUE)
 	pop bc
 	jr _TitleScroll
+ENDC
 
 .ScrollBetween:
 .wait
@@ -96,6 +120,7 @@ ELSE
 	db 0, $70, 0
 ENDC
 
+IF DEF(_BLUE)
 TitleScreenAnimateBallIfStarterOut:
 ; Animate the TitleBall if a starter just got scrolled out.
 	ld a, [wTitleMonSpecies]
@@ -110,6 +135,7 @@ TitleScreenAnimateBallIfStarterOut:
 	ld bc, TitleScroll_WaitBall
 	ld d, 0
 	jp _TitleScroll
+ENDC
 
 GetTitleBallY:
 ; Get position e from TitleBallYTable
