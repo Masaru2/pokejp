@@ -294,7 +294,7 @@ SFX_Intro_Hop::
 IF DEF(_BLUE)
 	audio_header SFX_Intro_Hop, Ch5
 ELSE
-	audio_header SFX_Intro_Hip, Ch8
+	audio_header SFX_Intro_Hop, Ch8
 ENDC
 
 SFX_Intro_Raise::
